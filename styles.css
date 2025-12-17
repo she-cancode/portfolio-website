@@ -347,6 +347,22 @@ form button {
   border-top: 1px solid #333;
 }
 
-
-
+.tech-badge {
+    /* This makes the bubble fit the text length */
+    display: inline-block;
+    
+    /* Colors from your screenshot */
+    background: #626262;
+    border: 3px solid #320c34;
+    color: white;
+    
+    /* Shape and Spacing */
+    padding: 0.4rem 1.2rem;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    margin-bottom: 15px; /* Adds space above the button */
+    
+    /* Removes any default list dots if you keep the <li> tag */
+    list-style: none; 
+}
 
